@@ -6,11 +6,17 @@ This file contains text explaining the concepts with some snippets and the Repo 
 **NB:** In no way you should assume that the examples below are the only way to do things, and it is even possible that some might not be best practice. If that is the case Please let me know!
 
 ##Run the code
+The different concepts explained here have running examples within the folder of the project. For instance,
+The code in the react-component folder contains the full example of the snippets described below.
+you just need to run ```npm start```
 
 ## React Basics
 ### JSX 
 React is built upon JSX. It is a syntax extension of JS allowing you to describe HTML like elements within the JS language, and allows react components to describe th UI.
-### React Components
+### React Component
+
+
+
 The notion of component constitutes the basis of the React framework. A component is the building block in charge of rendering a part of the UI.
 Conceptually they are JS functions accepting inputs (the props) and returning a block desrcibing what should appear on the screem.
 Components can be defined in 2 ways: as a class and as functions.
