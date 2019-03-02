@@ -5,7 +5,7 @@ This file contains text explaining the concepts with some snippets and the Repo 
 
 **NB:** In no way you should assume that the examples below are the only way to do things, and it is even possible that some might not be best practice. If that is the case Please let me know!
 
-##Run the code
+## Run the code
 The different concepts explained here have running examples within the folder of the project. For instance,
 The code in the react-component folder contains the full example of the snippets described below.
 you just need to run ```npm start```
