@@ -55,7 +55,8 @@ The DOM is accessible and modifiable by JS.
 #### React Virtual DOM 
 Because any change on the page will cause a re render of the whole DOM, changing one element becomes computationally expensive on large pages. 
 The react virtual is a abstract copy of the HTML DOM, and allows  REACT to make changes on it without touching the real DOM.
-Teh changes still happen on the real DOM but later on once react has done all the changes it needed on the virtual one. An algorithm called Diffing makes this process faster than making changes directly on the HTML DOM.
+
+The changes still happen on the real DOM but later on once react has done all the changes it needed on the virtual one. An algorithm called Diffing makes this process faster than making changes directly on the HTML DOM.
 
 ### Props and State
 #### props
