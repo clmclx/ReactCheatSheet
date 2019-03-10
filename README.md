@@ -14,9 +14,6 @@ you just need to run ```npm start```
 ### JSX 
 React is built upon JSX. It is a syntax extension of JS allowing you to describe HTML like elements within the JS language, and allows react components to describe th UI.
 ### React Component
-
-
-
 The notion of component constitutes the basis of the React framework. A component is the building block in charge of rendering a part of the UI.
 Conceptually they are JS functions accepting inputs (the props) and returning a block desrcibing what should appear on the screem.
 Components can be defined in 2 ways: as a class and as functions.
@@ -59,8 +56,11 @@ The react virtual is a abstract copy of the HTML DOM, and allows  REACT to make 
 The changes still happen on the real DOM but later on once react has done all the changes it needed on the virtual one. An algorithm called Diffing makes this process faster than making changes directly on the HTML DOM.
 
 ### Props and State
+There are 2 types of data models in React. Props and state. Let's see what they represent and how they differ.
 #### props
+Props is short for properties. They are always passed on to a component by its parent (unidirectional data flow), and are immutbale (fancy word for not changing). 
 #### state
+Because a component's props should not changed once they are set, we need another data model to handle changes that can happen (changes triggered by something else than the parent component). 
 #### lift up pattern
 ### Lifecylce
 ## Higher Order Components
