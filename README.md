@@ -62,7 +62,7 @@ Props is short for properties. They are always passed on to a component by its p
 #### state
 Because a component's props should not changed once they are set, we need another data model to handle changes that can happen (changes triggered by something else than the parent component).
 Now some components are static and should never change (as we have seen in the functional component above), they are stateless. However you will see that many times we need to change some data within the compnonent to change the way it is rendered. we need the state for those stateful components.
-When we need to change the state of a component, we can use the method  ```javascript setState()```, which handle the heavy lifting for us. Let's see an example:
+When we need to change the state of a component, we can use the method  ```setState()```, which handle the heavy lifting for us. Let's see an example:
 
 ```javascript
 export myComponent;
